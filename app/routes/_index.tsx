@@ -1,10 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
-  return [
-    { title: "Remix Ghibli" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title: "Ghibli" }];
 };
 
 export default function Index() {
